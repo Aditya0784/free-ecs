@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local vars (keep real secrets out of git)
+terraform.tfvars
+*.auto.tfvars
+
+# OS/editor junk
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
